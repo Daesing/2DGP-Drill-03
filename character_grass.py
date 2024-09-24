@@ -9,6 +9,22 @@ character = load_image('character.png')
 
 # fill here
 
+def run_top():
+    print('TOP')
+    pass
+
+def run_right():
+    print('RIGHT')
+    pass
+
+def run_bottom():
+    print('bottom')
+    pass
+
+def run_left():
+    print('left')
+    pass
+
 
 def run_rect():
     print('rect')
