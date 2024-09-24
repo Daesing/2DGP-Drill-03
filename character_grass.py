@@ -64,8 +64,9 @@ def run_circle():
         y = r * math.sin(theta) + cy
 
         draw_boy(x,y)
-
+    
     pass
+
 
 def draw_bottom():
     for x in range(0,790,10):
@@ -96,7 +97,7 @@ while True:
     run_circle()
     run_rect()
     run_triangle()
-    break
+    delay(0.1)
 
 
 
