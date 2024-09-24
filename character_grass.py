@@ -67,11 +67,26 @@ def run_circle():
 
     pass
 
+def draw_bottom():
+    pass
+
+def draw_right():
+    pass
+
+def draw_side():
+    pass
+
+def run_triangle():
+    draw_bottom()
+    draw_right()
+    draw_side()
+    pass
 
 
 while True:
     #run_circle()
-    run_rect()
+    #run_rect()
+    run_triangle()
     break
 
 
