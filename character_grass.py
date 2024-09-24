@@ -68,16 +68,20 @@ def run_circle():
     pass
 
 def draw_bottom():
+    for x in range(0,800,10):
+        draw_boy(x, 0)
     pass
 
 def draw_right():
+    for y in range(0,550,10):
+        draw_boy(790, y)
     pass
 
 def draw_side():
     pass
 
 def run_triangle():
-    draw_bottom()
+    #draw_bottom()
     draw_right()
     draw_side()
     pass
